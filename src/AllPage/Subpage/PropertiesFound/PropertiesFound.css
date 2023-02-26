@@ -1,0 +1,450 @@
+.PropertiesFound_layout {
+    position: relative;
+    width: 100%;
+    height: auto;
+    gap: 1.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFound_layout {
+        position: relative;
+        width: 100%;
+        height: auto;
+        gap: 1.4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.PropertiesFound_search {
+    width: 25%;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    background: #2A00A2;
+    border-radius: 20px;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFound_search {
+        width: 90%;
+        display: flex;
+        height: fit-content;
+        justify-content: center;
+        background: #2A00A2;
+        border-radius: 20px;
+    }
+}
+
+.Properties_search_box {
+    width: 80%;
+    margin: 1.6vw 0vw;
+}
+
+.Properties_search_box_text1 {
+    position: relative;
+    width: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #BCA4FF;
+}
+
+.Properties_search_box_text2 {
+    position: relative;
+    width: 95%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+    margin-top: 1.6vw;
+}
+
+.Properties_search_box2 {
+    position: relative;
+    width: 88%;
+    height: 59px;
+    background: #EFF0F7;
+    border-radius: 15px;
+    padding-left: 10%;
+    border: none;
+
+
+
+}
+
+.Properties_search_box2::placeholder {
+    font-family: 'Poppins';
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    letter-spacing: 0.75px;
+    color: #1e2b14;
+    opacity: 1;
+}
+
+.Properties_search_box_text3 {
+    position: relative;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    margin-top: 1vw;
+    color: #F3EFFF;
+}
+
+.Properties_search_box3 {
+    position: relative;
+    width: 79%;
+    height: 59px;
+    background: #EFF0F7;
+    border-radius: 15px;
+    padding: 0px 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
+}
+
+.Properties_search_button {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    background: #ED2E7E;
+    border-radius: 40px;
+    margin-top: 1.6vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #F7F7FC;
+    border: none;
+}
+
+/* **************************************************************************** */
+.PropertiesFound_found {
+    position: relative;
+    width: 54%;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFound_found {
+        position: relative;
+        width: 90%;
+        margin-top: 3vw;
+    }
+}
+
+.PropertiesFound_found_text1 {
+    position: relative;
+    width: 366px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFound_found_text1 {
+        position: relative;
+        width: 100%;
+        font-size: 24px;
+line-height: 32px;
+       
+    }
+}
+
+.PropertiesFound_found_card {
+    width: 100%;
+    margin-top: 2.5vw;
+}
+
+/* ********************************************************************** */
+.PropertiesFoundCard_layout {
+    width: 100%;
+    margin-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_layout {
+        width: 100%;
+        margin-bottom: 2vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+.PropertiesFoundCard_left {
+    width: 34.31%;
+    height: 204px;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_left {
+        width: 100%;
+        margin: 2vw 0vw;
+    }
+}
+
+.PropertiesFoundCard_img {
+    width: 100%;
+    height: 100%;
+}
+
+.PropertiesFoundCard_right {
+    width: 61.20%;
+    height: auto;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_right {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.PropertiesFoundCard_line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_line1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+.PropertiesFoundCard_line1_star {
+    width: 152px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.PropertiesFoundCard_line1_text1 {
+    position: relative;
+    width: 182px;
+    height: 40px;
+    border: 2px solid #D9DBE9;
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #5F2EEA;
+    background: #FFFFFF;
+}
+
+
+
+.PropertiesFoundCard_line1_text19 {
+    display: none;
+}
+
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_line1_text19 {
+        position: relative;
+        width: 182px;
+        height: 40px;
+        border: 2px solid #D9DBE9;
+        border-radius: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #5F2EEA;
+        background: #FFFFFF;
+        margin-top: 1.5vw;
+    }
+}
+
+.PropertiesFoundCard_line1_text2 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.75px;
+    color: #5F2EEA;
+    margin-top: .5vw;
+}
+
+.PropertiesFoundCard_line1_text3 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #14142B;
+}
+
+.PropertiesFoundCard_line1_text4 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    gap: .4vw;
+    color: #5F2EEA;
+}
+
+.PropertiesFoundCard_line1_text5 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #14142B;
+    margin-top: .5vw;
+}
+@media screen and (max-device-width:740px),
+screen and (max-width:740px) {
+    .PropertiesFoundCard_line1_text5 {
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #14142B;
+        margin-top: .5vw;
+        
+    }
+}
+
+.PropertiesFoundCard_line1_bottom {
+    border: 1px solid #D9DBE9;
+    margin-top: 2vw;
+}
+
+/* *********************************************************LowerBox***************** */
+.lowerBox1 {
+    position: relative;
+    background: #F2FFFB;
+    border: 2px solid #00BA88;
+    border-radius: 16px;
+    width: 72%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4%;
+    margin-top: 20px;
+
+}
+.lowerBox1_text1{
+    position: relative;
+    width: 462px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+color: #00966D;
+gap: 1vw;
+margin: 20px 0px;
+}
+
+.lowerBox2 {
+    position: relative;
+    background: #FFF3F8;
+border: 2px solid #ED2E7E;
+border-radius: 16px;
+width: 72%;
+left: 10%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0px 4%;
+margin: 26px 0px 45px 0px;
+
+}
+.lowerBox2_text1{
+    width: 920px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+color: #C30052;
+gap: 1vw;
+margin: 20px 0px;
+}

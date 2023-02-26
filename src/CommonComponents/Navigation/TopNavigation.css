@@ -1,0 +1,150 @@
+.TopNavigation {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0vw;
+    height: 100px;
+    border-bottom: 1px solid #D9DBE9;
+}
+
+.TopNavigation_text {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.375px;
+    line-height: 55px;
+    color: #5F2EEA;
+    margin-left: 9.37vw;
+}
+
+.TopNavigation_toggler {
+    margin-right: 6.6vw;
+}
+
+.list-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #2A00A2;
+}
+
+.TogglerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #2A00A2;
+    padding: 2vw 0vw;
+}
+
+.TogglerMenuName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.375px;
+    line-height: 55px;
+    color: #FCFCFC;
+    font-size: 34.375px;
+    margin-left: 9.37vw;
+}
+
+.TogglerMenuIcon {
+    align-self: center;
+    margin-right: 6.6vw;
+    color: #FCFCFC;
+}
+
+.TogglerMenu1 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+    margin-left: 9.37vw;
+    padding: 1.5vw 0px;
+}
+
+.TogglerMenu2 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+    padding: 1.5vw 0px;
+    padding-left: 8.2vw;
+}
+
+.TogglerMenu2active {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+    background: #5F2EEA;
+    padding: 1.5vw 8.2vw 1.5vw 8.2vw;
+}
+
+.TogglerMenu2_content {
+    background: #5F2EEA;
+}
+
+.TogglerMenu2_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    color: #EFF0F7;
+    padding-left: 9.37vw;
+    margin-bottom: 2vw;
+}
+
+.TogglerMenu3 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+    padding: 1.5vw 0px;
+    padding-left: 8.2vw;
+}
+
+.TogglerMenu3active {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #F3EFFF;
+
+    background: #5F2EEA;
+    padding: 1.5vw 8.2vw 1.5vw 8.2vw;
+}

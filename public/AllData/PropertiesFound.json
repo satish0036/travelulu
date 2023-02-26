@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "img": "/Image/Subpage/Rectangle13.png", 
+        "rating":4.2,
+        "name":"Maldron Hotel Newcastle ",
+        "location":"Newcastle City Centre, Newcastle upon Tyne 0.3km from centre",
+        "about":"Situated in Newcastle City Centre, Maldron Hotel features free WiFi and a private court yard."   
+      },
+      {
+        "id": 2, 
+        "img": "/Image/Subpage/Rectangle14.png", 
+        "rating":5,
+        "name":"Estate de la Newcastle",
+        "location":"Newcastle City Centre, Newcastle upon Tyne 0.3km from centre",
+        "about":"Situated in Newcastle City Centre, Maldron Hotel features free WiFi and a private court yard." 
+      },
+      {
+        "id": 3, 
+        "img": "/Image/Subpage/Rectangle15.png", 
+        "rating":3,
+        "name":"Newcastle Premier Hotel",
+        "location":"Newcastle City Centre, Newcastle upon Tyne 0.3km from centre",
+        "about":"Situated in Newcastle City Centre, Maldron Hotel features free WiFi and a private court yard."    
+      },
+      {
+        "id": 4, 
+        "img": "/Image/Subpage/Rectangle16.png", 
+        "rating":3.2,
+        "name":"AirBnB Residence",
+        "location":"Newcastle City Centre, Newcastle upon Tyne 0.3km from centre",
+        "about":"Situated in Newcastle City Centre, Maldron Hotel features free WiFi and a private court yard." 
+      }
+]
