@@ -1,5 +1,5 @@
 #To see how it looks like 
-https://app.netlify.com/teams/satish0036kumar/sites
+https://traveluluu.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
